@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 echo -e "${GREEN} ---------Install Now------------- \n"
 echo -n "INSTALLING  MAIN  FILES  .........."
 if ! dpkg-query -W -f='${Status}' figlet  | grep "ok installed"; then apt install figlet; fi 
@@ -16,6 +17,7 @@ echo -e  "Thank you , Everything is installed Now , go to run.sh \n\n"
 chmod 777 feroxbuster
 chmod +x script_scan.sh
 if ! dpkg-query -W -f='${Status}' whois  | grep "ok installed"; then apt install whois; fi
+clear
 GREEN='\033[0;32m'
 echo -e "${GREEN} We install Everything ! Happy day Team 1 \n"
 figlet -f slant Install_Done
