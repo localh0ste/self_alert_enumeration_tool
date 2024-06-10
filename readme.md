@@ -35,8 +35,8 @@ We are automating the setup and use of security tools to scan a target IP addres
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/aryan-nair69/Swiftsafe-assignment.git
-    cd Swiftsafe-assignment
+    https://github.com/localh0ste/self_alert_enumeration_tool.git
+    cd self_alert_enumeration_tool
     ```
 
 2. Make the scripts executable:
